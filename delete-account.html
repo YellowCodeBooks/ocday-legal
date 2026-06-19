@@ -13,36 +13,88 @@
       line-height: 1.6;
       color: #333;
     }
-    h1, h2 { color: #111; }
-    .steps { background: #f5f5f5; padding: 20px; border-radius: 8px; }
-    .steps ol { margin: 0; padding-left: 20px; }
-    .steps li { margin-bottom: 12px; }
+    h1 {
+      color: #111;
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 12px;
+    }
+    h2 {
+      color: #111;
+      margin-top: 32px;
+    }
+    .steps {
+      background: #f5f5f5;
+      padding: 20px 24px;
+      border-radius: 8px;
+      margin: 16px 0;
+    }
+    .steps ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .steps li {
+      margin-bottom: 12px;
+    }
+    .steps li:last-child {
+      margin-bottom: 0;
+    }
+    .highlight {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 4px;
+    }
+    a {
+      color: #4f46e5;
+    }
+    .footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+      font-size: 14px;
+      color: #777;
+    }
   </style>
 </head>
 <body>
+
   <h1>Delete Your OCDay Account & Data</h1>
-  <p>OCDay, developed by Yellow Smart Lab, lets you request deletion of your account and all associated data at any time.</p>
+
+  <p>OCDay, developed by Yellow Smart Lab, allows you to request deletion of your account and all associated data at any time.</p>
 
   <h2>How to request account deletion</h2>
+
   <div class="steps">
     <ol>
-      <li>Open the OCDay app</li>
-      <li>Go to <strong>Settings → Account → Delete Account</strong></li>
-      <li>Confirm the deletion request</li>
+      <li>Send an email to <a href="mailto:yellowcode.books@gmail.com?subject=Delete%20Account%20Request">yellowcode.books@gmail.com</a></li>
+      <li>Use the subject line: <strong>"Delete Account Request"</strong></li>
+      <li>Send the email from your <strong>registered account email address</strong>, so we can verify your identity</li>
+      <li>In the email body, please confirm you want your OCDay account and data permanently deleted</li>
     </ol>
   </div>
 
-  <p>Alternatively, you can email us at <a href="mailto:yellowcode.books@gmail.com">yellowcode.books@gmail.com</a> with the subject line "Delete Account Request" from your registered email address.</p>
+  <div class="highlight">
+    Your account and associated data will be permanently deleted within <strong>2 business days</strong> of receiving your verified request.
+  </div>
 
   <h2>What data is deleted</h2>
-  <p>Upon deletion request, the following data will be permanently deleted within 30 days:</p>
+  <p>Upon a verified deletion request, the following data will be permanently deleted:</p>
   <ul>
     <li>Your account profile (email, name)</li>
     <li>All tasks and task-related data</li>
-    <li>App usage and settings data</li>
+    <li>App usage data and personal settings</li>
   </ul>
 
   <h2>What data may be retained</h2>
-  <p>Subscription and billing records may be retained as required by law or for legitimate business purposes (e.g., fraud prevention, tax compliance), in accordance with our <a href="https://[username].github.io/ocday-legal/privacy-policy.html">Privacy Policy</a>.</p>
+  <p>Subscription and billing records may be retained as required by law or for legitimate business purposes (e.g., fraud prevention, tax compliance), in accordance with our <a href="https://ocday-legal.github.io/privacy-policy.html">Privacy Policy</a>.</p>
+
+  <h2>Need help?</h2>
+  <p>If you have any questions about this process, feel free to reach out to <a href="mailto:yellowcode.books@gmail.com">yellowcode.books@gmail.com</a>.</p>
+
+  <div class="footer">
+    OCDay by Yellow Smart Lab
+  </div>
+
 </body>
 </html>
